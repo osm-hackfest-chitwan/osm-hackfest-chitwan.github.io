@@ -7,18 +7,7 @@ import hackathonLogo from './Assets/hackathonLogo.png';
  */
 
 import boy from './Assets/boy.png';
-import pass from './Assets/sponsorsLogos/1pass.png';
-import ACF from './Assets/sponsorsLogos/ACF.png';
-import cfc from './Assets/sponsorsLogos/cfc.png';
-import echoAR from './Assets/sponsorsLogos/echoAR.png';
-import egg from './Assets/sponsorsLogos/egg.png';
-import glimpse from './Assets/sponsorsLogos/glimpse.png';
-import interviewC from './Assets/sponsorsLogos/interview-cake.jpg';
-import ll from './Assets/sponsorsLogos/ll.png';
-import qoom from './Assets/sponsorsLogos/qoom.svg';
 import Replit from './Assets/sponsorsLogos/replit.png';
-import sublime from './Assets/sponsorsLogos/sublime.png';
-import taskade from './Assets/sponsorsLogos/taskade.png';
 import lyin from './Assets/teami/lyin.jpg';
 
 /** Put all your sponsors logo inside folder `sponsorLogos`
@@ -34,16 +23,15 @@ import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
 const TOP_SECTION = {
-  TITLE: 'Join Limbo Hacks',
+  TITLE: 'OSM Hackfest 2023 - Chitwan Region',
   Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
   SHORT_DESCRIPTION:
-    'Join us on 20th November 2021 with over 300 students from across the nation for 24 hours of creation, innovation, & fun.',
+    'Join us on 10th and 11th June 2023 with peers from across the terai region for 24 hours of creation, innovation and fun.',
   IMG_SRC: boy,
   DISCORD_LINK: '',
-  JUDGES_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNVRQMUg4VllMRURDN1lON0haNFVCQUgySC4u',
+  JUDGES_FORM_LINK: '',
   HACKERS_REGISTRATION_FORM_LINK:
-    'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNTgyREk0VzdEMU9RVFlPMVNWVEJQUkNYMi4u'
+    'https://docs.google.com/forms/d/e/1FAIpQLSexlRmYgJSjRNZPlnr69zgzg4FIbQqcMVvDBrRHMErbbaWx8Q/viewform'
 };
 
 const SOCIALS = {
@@ -57,19 +45,19 @@ const SOCIALS = {
 };
 
 const MIDDLE_SECTION = {
-  TITLE: 'What is Limbo hacks?',
+  TITLE: 'What is OSM Hackfest 2023 - Chitwan Region?',
   LONG_DESCRIPTION:
-    'Hack Limbo is 24 hour long running hackathon will be held on November 20th & 21th , We calls for hackers, artists, coders, designers, tech evangelists, creatives, and developers from all disciplines to take a part to win awesome prizes and collaborate with other developers . Throughout the weekend hackers at Limbo Hacks will have unique opportunities to learn from each other trying hands in new technologies We are determined to have an all-inclusive and diverse group of students attending.',
+    'OSM Hackfest 2023 - Chitwan region is a 24 hour long hackathon that will be held on June 10th and 11th. The main focus of the event will be innovations impacting local areas with utilzation of OpenStreetMap. The event is a part of a seires consisting of Regional -> National -> International. This event is regional one, after which you will move on to the National event. The winners of National Level Hackfest will get chance to particpate in the International level Hackfest with Full Sponsorships.',
   LOGO: hackathonLogo
 };
 
 const FOOTER = {
   VOLUNTEERING_FORM: {
     required: true,
-    src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUNFBQME44TzJZWDc2UFgwTUtLN0xDQVYyUi4u'
+    src: 'https://docs.google.com/forms/d/e/1FAIpQLSclOhvKDu4JnfI1uZ5PjTuUg8EwjbIVi68WqWTwNoxeRp-VQQ/viewform'
   },
   JOIN_TEAM: {
-    required: true,
+    required: false,
     src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
   },
   Privacy_policy: {
@@ -90,8 +78,8 @@ const FOOTER = {
  */
 
 const calenderStartingDate = {
-  month: 12,
-  year: 2021
+  month: 6,
+  year: 2023
 };
 
 const schedule = [
@@ -180,39 +168,6 @@ const Prizeinfo = [
         'Second Overall prize will be given to the second best project of the hackathon'
     },
     {
-      icon: <i className=" third fas fa-4x fa-skiing-nordic"></i>,
-      type: 'Third Second',
-      content:
-        'Best third overall project of the hackathon will win some awesome prizes'
-    }
-  ],
-  [
-    //Array 2
-    {
-      icon: <i className="fab fourth fa-3x fa-wpbeginner"></i>,
-      type: 'Best Solo',
-      content:
-        'You project will qualify for this prize if you participate alone without a team though we encourage you to participate with a team'
-    },
-    {
-      icon: <i className="first fas fa-4x fa-trophy"></i>,
-      type: ' Best Beginner',
-      content: 'Your project will qualify for this category if atleast 50% '
-    },
-    {
-      icon: <i className=" fifth fa-3x fas fa-book-open"></i>,
-      type: 'Best UI/UX',
-      content: 'Project with most creative designs will be UI/UX track'
-    }
-  ],
-  [
-    //Array 3
-    {
-      icon: <i className="fas fa-4x sixth fa-male"></i>,
-      type: 'Best Web App with Qoom',
-      content: 'Must use qoom in your project to win this category'
-    },
-    {
       icon: <i className="fas fa-user-friends seventh fa-3x "></i>,
       type: 'More prizes',
       content: 'More prizes will be revealed later'
@@ -230,23 +185,23 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Rehan',
+      Name: 'Binny Vai',
       role: 'Organizer',
-      github: 'https://github.com/Limbo-Hacks/Hackathon-website-template',
+      github: 'https://github.com/Binaya-mrt',
       linkedin: '',
       img: me
     },
     {
-      Name: 'Moon',
+      Name: 'Prabhat Amgain',
       role: 'Organizer',
-      github: '',
+      github: 'https://github.com/prabhat147',
       linkedin: '',
       img: moon
     },
     {
-      Name: 'Erika',
+      Name: 'Sijan Neupane',
       role: 'Organizer',
-      github: '',
+      github: 'https://github.com/sijan8s3',
       linkedin: '',
       img: Ryah
     }
@@ -254,17 +209,17 @@ const TeamInfo = [
   [
     //Array 2
     {
-      Name: 'Lyanola',
+      Name: 'Rajiv Aryal',
       role: 'Organizer',
-      github: '',
+      github: 'https://github.com/Aryal-Rajiv',
       linkedin: '',
       img: lyin
     },
     {
-      Name: 'Zoheb',
+      Name: 'Ashbin Wosti',
       role: 'Organizer',
-      github: '',
-      linkedin: '',
+      github: 'https://github.com/washbin',
+      linkedin: 'https://linkedin.com/in/washbin',
       img: zoha
     }
   ]
@@ -272,44 +227,12 @@ const TeamInfo = [
 
 const JudgesInfo = [
   [
-    //Array 1
     {
-      Name: 'Rehan',
-      role: 'Organizer',
+      Name: 'Someone',
+      role: 'Judge',
       github: '',
       linkedin: '',
       img: me
-    },
-    {
-      Name: 'Moon',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: moon
-    },
-    {
-      Name: 'Ryah Garcia',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: Ryah
-    }
-  ],
-  [
-    //Array 2
-    {
-      Name: 'Lyanola',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: lyin
-    },
-    {
-      Name: 'Zoheb',
-      role: 'Organizer',
-      github: '',
-      linkedin: '',
-      img: zoha
     }
   ]
 ];
@@ -320,12 +243,7 @@ const JudgesInfo = [
  * in a group of 3.
  */
 
-const sponsorLogos = [
-  [{src: cfc}, {src: sublime}, {src: echoAR}], //Array 1
-  [{src: taskade}, {src: Replit}, {src: qoom}], //Array 2
-  [{src: interviewC}, {src: pass}, {src: glimpse}], //Array 3
-  [{src: egg}, {src: ll}, {src: ACF}] //Array 4
-];
+const sponsorLogos = [[{src: Replit}]];
 
 /** Instructions
  * Follow the strcuture provided below to add as many as FAQ's you want
@@ -336,12 +254,12 @@ const frequentlyAskedQuestions = [
       {
         label: 'What is a hackathon?',
         content:
-          'A hackathon is a 24 hour event where "hackers" all over the globe will collaborate on creating a functioning software and hardware by the end of the event.'
+          'A hackathon is an event of certain duration either physical or virtual where people from a certain area or across the globe collaborate in teams to create a functionaing software with an impact "'
       },
       {
         label: 'Who can attend?',
         content:
-          'Limbo Hacks is open to all undergraduate, high school students and middle school students from all schools.'
+          'OSM Hackfest 2023 - Chitwan Region is open to all undergraduate students.'
       },
       {
         label: 'I am a first time hacker, what should I do?',
@@ -351,7 +269,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'How team formation works?',
         content:
-          "You can form team with 4 members in it at maximum. If you don't have a team, there'll be plenty of opportunities for you to meet hackers and form a team!"
+          'You can form team with 4 members in it at maximum. At a minimum, your team must consist of 2 members.'
       }
     ],
     [
@@ -363,7 +281,7 @@ const frequentlyAskedQuestions = [
       {
         label: 'I have more questions?',
         content:
-          'Reach us directly at (rehan@limbohacks.tech or hello@limbohacks.tech) we would happy to help you.'
+          'Reach out to any of our organizing personnels either through our social links or directly.'
       },
       {
         label: 'Can i volunteer?',
@@ -372,7 +290,7 @@ const frequentlyAskedQuestions = [
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing Limbo Hacks swag!.'
+        content: 'Yes! Participants will recieveing OSM Hackfest swag!.'
       }
     ]
   ]
