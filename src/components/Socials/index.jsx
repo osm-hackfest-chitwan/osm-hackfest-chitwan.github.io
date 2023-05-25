@@ -6,8 +6,8 @@ export default function Media() {
     <div className="media">
       <p>Follow us on social media for updates</p>
       <div className="single">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
-          <i className="fab fa-3x fa-instagram"></i>
+        <a rel="noreferrer" target="_blank" href={SOCIALS.telegram}>
+          <i className="fab fa-3x fa-telegram"></i>
         </a>
       </div>
 
@@ -18,18 +18,8 @@ export default function Media() {
       </div>
 
       <div className="single">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
-          <i className="fab fa-3x fa-linkedin-in"></i>
-        </a>
-      </div>
-      <div className="single">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-          <i className="fab fa-3x fa-twitter"></i>
-        </a>
-      </div>
-      <div className="single">
-        <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-          <i className="fab fa-3x fa-dev"></i>
+        <a rel="noreferrer" target="_blank" href={SOCIALS.facebook}>
+          <i className="fab fa-3x fa-facebook"></i>
         </a>
       </div>
     </div>

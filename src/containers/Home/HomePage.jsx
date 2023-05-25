@@ -114,13 +114,11 @@ export default function HomePage() {
             <Logo />
           </Col>
         </Row>
-
         {/* ********Frequently asked Questions here ***** */}
         <div className="Myfaqs" id="faq">
           {frequentlyAskedQuestions.map(FrequentlyAsked)}
           {/* ********Frequently asked Questions ending here ***** */}
         </div>
-
         {/* ********Prizes here ***** */}
         <Row className="prizesection" id="prizes">
           <PrizeHeading type="Prize section" />
@@ -128,22 +126,23 @@ export default function HomePage() {
         </Row>
         {/* ********Prizes ending here ***** */}
 
+        {/*
         <Row className="prizesection non-coding">
           <PrizeHeading type="Non-coding prizes" />
           <h2>coming soon</h2>
         </Row>
-
+                */}
         {/* ********Sponsors here ***** */}
+        {/*
 
         <Row className="sponsorSection" id="sponsors">
           <SponsorsHead />
           <SponsorUS />
           {sponsorLogos.map(SponsorGroup)}
         </Row>
+                */}
         {/* ********Sponsors ending here ***** */}
-
         {media && <Birds top="120vh" left="0vh" type="" />}
-
         {/* ********Team here ***** */}
         <h1 id="team">Our Team</h1>
         {FOOTER.JOIN_TEAM.required && (
@@ -157,7 +156,7 @@ export default function HomePage() {
         {/* ********Team ending here ***** */}
 
         {/* ********Judges here ***** */}
-
+        {/*
         <h1 id="team">Judges</h1>
         {FOOTER.JOIN_TEAM.required && (
           <JoinTeam
@@ -167,7 +166,8 @@ export default function HomePage() {
           />
         )}
         {JudgesInfo.map(TeamMembers)}
-        {/* ********Team ending here ***** */}
+        */}
+        {/* ********Judges ending here ***** */}
       </Container>
       <Footer />
     </div>

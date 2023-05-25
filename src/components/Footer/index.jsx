@@ -5,6 +5,8 @@ import cross from './assets/cross.svg';
 import DevPost from './assets/icons8-dev-post.svg';
 import Dis from './assets/icons8-discord.svg';
 import Insta from './assets/icons8-instagram.svg';
+import Tele from './assets/icons8-telegram.svg';
+import Face from './assets/icons8-facebook.svg';
 import Linked from './assets/icons8-linkedin-2.svg';
 import Mail from './assets/icons8-mail.svg';
 import Twitter from './assets/icons8-twitter.svg';
@@ -51,33 +53,25 @@ const Footer = () => {
       <div className="footer">
         <div className="social-icons-container">
           <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.instagram}>
-              <img src={Insta} alt="" />
+            <a rel="noreferrer" target="_blank" href={SOCIALS.telegram}>
+              <img src={Tele} alt="" />
             </a>
           </div>
+
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.discord}>
               <img src={Dis} alt="" />
             </a>
           </div>
+
           <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.linkedin}>
-              <img src={Linked} alt="" />
+            <a rel="noreferrer" target="_blank" href={SOCIALS.facebook}>
+              <img src={Face} alt="" />
             </a>
           </div>
           <div className="social-icon">
             <a rel="noreferrer" target="_blank" href={SOCIALS.email}>
               <img src={Mail} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.twitter}>
-              <img src={Twitter} alt="" />
-            </a>
-          </div>
-          <div className="social-icon">
-            <a rel="noreferrer" target="_blank" href={SOCIALS.devpost}>
-              <img src={DevPost} alt="" />
             </a>
           </div>
         </div>
@@ -119,11 +113,7 @@ const Footer = () => {
               <p>Terms of Use</p>
             </a>
           )}
-          <p>Made with ❤️</p>
         </div>
-        {template && viewTemplate && (
-          <GithubTemplate hideTemplate={() => setViewTemplate(false)} />
-        )}
       </div>
     </div>
   );
