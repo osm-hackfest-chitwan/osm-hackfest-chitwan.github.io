@@ -22,6 +22,10 @@ import moon from './Assets/teami/moon.png';
 import Ryah from './Assets/teami/Ryah.jpg';
 import zoha from './Assets/teami/zoha.png';
 
+import binaya from './Assets/binaya.jpg';
+import prabhat from './Assets/prabhat.jpg';
+import rajiv from './Assets/rajiv.jpg';
+
 const TOP_SECTION = {
   TITLE: 'OSM Hackfest 2023 - Chitwan Region',
   Typed_effect: ['24 hours of creation', 'Win awesome prizes'],
@@ -35,13 +39,11 @@ const TOP_SECTION = {
 };
 
 const SOCIALS = {
-  instagram: 'https://www.instagram.com/limbohacks/',
-  discord: 'https://discord.com/invite/8XJSzmtWPp',
-  linkedin: 'https://www.linkedin.com/company/limbo-hacks/',
-  twitter: 'https://twitter.com/HacksLimbo',
-  devpost: 'https://limbo-hacks-12968.devpost.com/',
-  email: 'mailto:hello@limbohacks.tech',
-  mail: 'hello@limbohacks.tech'
+  facebook: 'https://www.facebook.com/birendraopensourceclub',
+  telegram: 'https://t.me/+wZgJbt2-od1hNGVl',
+  discord: 'https://discord.com/invite/7F6uce2FHr',
+  email: 'mailto:boscofficial2021@gmail.com',
+  mail: 'boscofficial2021@gmail.com'
 };
 
 const MIDDLE_SECTION = {
@@ -61,11 +63,11 @@ const FOOTER = {
     src: 'https://forms.office.com/Pages/ResponsePage.aspx?id=DQSIkWdsW0yxEjajBLZtrQAAAAAAAAAAAAN__jZdNhdUOUhEQkJSRk02OEU4SlBMTUdYOFIxOTNZSy4u'
   },
   Privacy_policy: {
-    required: true,
+    required: false,
     src: ''
   },
   Terms_of_use: {
-    required: true,
+    required: false,
     src: ''
   }
 };
@@ -185,38 +187,38 @@ const TeamInfo = [
   [
     //Array 1
     {
-      Name: 'Binny Vai',
+      name: 'Binaya Marahatha',
       role: 'Organizer',
       github: 'https://github.com/Binaya-mrt',
-      linkedin: '',
-      img: me
+      linkedin: 'https://www.linkedin.com/in/binaya-marahatha-93588b1aa/',
+      img: binaya
     },
     {
-      Name: 'Prabhat Amgain',
+      name: 'Prabhat Amgain',
       role: 'Organizer',
       github: 'https://github.com/prabhat147',
-      linkedin: '',
-      img: moon
+      linkedin: 'https://www.linkedin.com/in/prabhat-amgain-5093001b2/',
+      img: prabhat
     },
     {
-      Name: 'Sijan Neupane',
+      name: 'Sijan Neupane',
       role: 'Organizer',
       github: 'https://github.com/sijan8s3',
-      linkedin: '',
+      linkedin: 'https://www.linkedin.com/in/sijanneupane/',
       img: Ryah
     }
   ],
   [
     //Array 2
     {
-      Name: 'Rajiv Aryal',
+      name: 'Rajiv Aryal',
       role: 'Organizer',
       github: 'https://github.com/Aryal-Rajiv',
-      linkedin: '',
-      img: lyin
+      linkedin: 'https://www.linkedin.com/in/rajiv-aryal-3610bb198/',
+      img: rajiv
     },
     {
-      Name: 'Ashbin Wosti',
+      name: 'Ashbin Wosti',
       role: 'Organizer',
       github: 'https://github.com/washbin',
       linkedin: 'https://linkedin.com/in/washbin',
@@ -270,6 +272,11 @@ const frequentlyAskedQuestions = [
         label: 'How team formation works?',
         content:
           'You can form team with 4 members in it at maximum. At a minimum, your team must consist of 2 members.'
+      },
+      {
+        label: 'What does it cost to particpate?',
+        content:
+          'Nothing, it is completely free to participate in OSM Hackfest 2023 - Chitwan Region. Altough you do need to submit a form with well catered responses and make it through the selection round to attent main event.'
       }
     ],
     [
@@ -284,13 +291,13 @@ const frequentlyAskedQuestions = [
           'Reach out to any of our organizing personnels either through our social links or directly.'
       },
       {
-        label: 'Can i volunteer?',
+        label: 'Can I volunteer?',
         content:
           'Yes we are actively looking for volunteers, fill the form (in footer section) we will be glad to have you.'
       },
       {
         label: 'Will there be swag?',
-        content: 'Yes! Participants will recieveing OSM Hackfest swag!.'
+        content: 'Yes! Participants will receiving OSM Hackfest swag!.'
       }
     ]
   ]
