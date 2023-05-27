@@ -24,6 +24,7 @@ import zoha from './Assets/teami/zoha.png';
 
 import binaya from './Assets/binaya.jpg';
 import prabhat from './Assets/prabhat.jpg';
+import sijan from './Assets/sijan.jpg';
 import rajiv from './Assets/rajiv.jpg';
 
 const TOP_SECTION = {
@@ -205,7 +206,7 @@ const TeamInfo = [
       role: 'Organizer',
       github: 'https://github.com/sijan8s3',
       linkedin: 'https://www.linkedin.com/in/sijanneupane/',
-      img: Ryah
+      img: sijan
     }
   ],
   [
@@ -222,7 +223,7 @@ const TeamInfo = [
       role: 'Organizer',
       github: 'https://github.com/washbin',
       linkedin: 'https://linkedin.com/in/washbin',
-      img: zoha
+      img: me
     }
   ]
 ];
